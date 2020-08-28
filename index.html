@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CoolX Lite</title>
     <style>
@@ -19,7 +18,6 @@
 			text-align: center;
         }
         html, body {
-            min-height: 100%;
             height: 100%;
         }
         .content {
@@ -47,14 +45,18 @@
 			border-radius: 6px;
  			position: fixed;
 		}
+    
+    .img_fit {
+      max-width: 1000px;
+        }
 	}
     </style>
 </head>
 <body>
 <div class="content">
-<p align=center><font size="32">COOLX lite</font></p>
-<p align=center><img src="img/Front.jpg" alt=""></p>
-<p align=center><img src="img/Back.jpg" alt=""></p>
+<p align=center style="font-size:3vw;">COOLX lite</p>
+<p align=center><img class="img_fit" width="95%" src="img/Front.jpg" alt=""></p>
+<p align=center><img class="img_fit" width="95%" src="img/Back.jpg" alt=""></p>
 <div style="margin: 10px; text-align: justify; text-indent: 1.5em; ">
 <p>Плата основана на маппере MMC3, но с дополнительной поддержкой AOROM UNROM маппера. Это означает, что можно записать такие замечательные игры как <b>Battletoads</b> и <b>R.C. Pro-Am II</b>.</p>
 <p>Плата содержит в себе 16 слотов SRAM, что позволяет использовать 14 слотов для сохранений различных игр (каждая игра с сохранениями использует свой собственный слот). Игры, в которых возле размера указано <b>save</b> используют сохранения. На плате имеется батарейка CR2032, которая сохранит данные при отключении консоли, батарейка расчитана на 2-4 года, ее без проблем можно заменить при включенной консоли.</p>
@@ -85,11 +87,11 @@
 64МБ: 350грн (910руб 12.9$), возможно записать 200-250игр<br>
 128МБ: 450грн (1170руб 16.6$), возможно записать 400-500игр<br>
 Цена указана за плату без корпуса, корпус дополнительно стоит 80грн (208руб 2.96$).<br>
-<p align=center><img src="img/FC-shell.jpg" alt=""></p>
+<p align=center><img class="img_fit" width="95%" src="img/FC-shell.jpg" alt=""></p>
 <p>Корпус Tv-Game подобный 110грн (286руб 4$).</p>
-<p align=center><img src="img/TvGame-shell.jpg" alt=""></p>
+<p align=center><img class="img_fit" width="95%" src="img/TvGame-shell.jpg" alt=""></p>
 <p>Вы можете выбрать наклейку:</p>
-<p align=center><img src="img/Stickers.jpg" alt=""></p>
+<p align=center><img class="img_fit" width="95%" src="img/Stickers.jpg" alt=""></p>
 <p>Доступны 2 типа меню:</p>
 <p></p>
 <p align=center><input id="menu_space" type="checkbox">Космос</p>
@@ -101,8 +103,8 @@
 <p>Доставка зарубеж возможна, но нужно полностью оплатить товар + стоимость доставки (140грн это 5.18$).</p>
 <p>Связаться со мной можно по Viber, Telegram по номеру телефона <b>+380992028599</b> <b>Кузнецов Евгений</b> email <b>evgenykzz2@gmail.com</b></p>
 </div>
-<table border="1" class="content1" style="table-layout: fixed; width:1000px;">
-<tr><td style="width:30px"></td><td style="width:400px">Название Игры</td><td style="width:50px">Язык</td><td style="width:120px">Размер(КБ)</td><td style="width:100px">Маппер</td><td style="width:454px">Коментарии</td></tr>
+<table border="1" class="content1" style="font-size:min(max(1.3vw, 8px), 18px);">
+<tr><td style="width:1%"></td><td style="width:55%">Название Игры</td><td style="width:1%">Язык</td><td style="width:1%">Размер(КБ)</td><td style="width:1%">Маппер</td><td style="width:25%">Коментарии</td></tr>
  <tr class="line"><td><input class="sel" type="checkbox"><input type="text" class="bin" value="10-Yard Fight (U) [!].nes" disabled hidden><input type="text" class="hex" value="00" disabled hidden><label class="loc" value=0></td><td><label class="title" value=0>10-Yard Fight</label></td><td><font color="blue">eng</font></td><td><label class="size" value=40>40</label><input class="sv" type="checkbox" hidden></td><td>NROM</td><td></td></tr>
  <tr class="line"><td><input class="sel" type="checkbox"><input type="text" class="bin" value="1942 (JU) [!].nes" disabled hidden><input type="text" class="hex" value="10" disabled hidden><label class="loc" value=0></td><td><label class="title" value=1>1942</label></td><td><font color="blue">eng</font></td><td><label class="size" value=40>40</label><input class="sv" type="checkbox" hidden></td><td>NROM</td><td></td></tr>
  <tr class="line"><td><input class="sel" type="checkbox"><input type="text" class="bin" value="1943-The Battle of Midway (U) [!] [MMC3] [ENG].nes" disabled hidden><input type="text" class="hex" value="20" disabled hidden><label class="loc" value=0></td><td><label class="title" value=2>1943-The Battle of Midway</label></td><td><font color="blue">eng</font></td><td><label class="size" value=128>128</label><input class="sv" type="checkbox" hidden></td><td>MMC3</td><td></td></tr>
